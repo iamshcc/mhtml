@@ -1,5 +1,10 @@
+#node
 node_modules
+
+#project
 build
+./src/assets/css/main.css
+
+#editor
 .idea
 .vscode
-./src/assets/css/main.css
