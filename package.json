@@ -7,6 +7,11 @@
   "type": "module",
   "main": "mhtml.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "twc": "npx tailwindcss -i src/assets/css/app.css -o ./src/assets/css/main.css --watch",
+    "dev": "live-server ./build",
+    "build": "node ./mhtml.js"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
   }
 }
